@@ -40,6 +40,10 @@
     padding: 20px 0;
 }
 
+.vampire_vid {
+    display: none;
+}
+
 .reels {
     display: flex;
     flex-direction: column;
@@ -67,8 +71,16 @@
     text-align: center;
 }
 
+.profile_desc {
+    width: 90%;
+    text-align: justify;
+}
 
 /****** SOFTWARE ******/
+
+.caja2 {
+    padding: 20px 10px;
+}
 
 .cj_icon {
     margin: 20px 30px;
