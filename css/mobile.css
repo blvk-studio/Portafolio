@@ -10,8 +10,20 @@
     display: none;
 }
 
+.nav_link {
+    margin: 0 6px;
+}
+
+.nav_text {
+    /*estilo para el link del nav*/
+    font-size: 1rem;
+}
+
+/****** HERO ******/
+
 .hero_logo {
-    height: 15%;
+    height: 13%;
+    
 }
 
 .hero_text {
@@ -28,6 +40,7 @@
 
 #Portafolio {
     height: 250px;
+    padding: 80px 10px;
 }
 
 .Portafolio_text {
@@ -54,7 +67,7 @@
 /****** TRABAJOS EXTENDIDOS ******/
 
 .trabajos_extendidos {
-    padding: 50px 50px;
+    padding: 50px 20px;
 }
 
 /****** PROFILE ******/
@@ -64,7 +77,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 50px 10px;
+    grid-gap: 30px;    
+}
 
+.profile_pic {
+    width: 90%;
 }
 
 .profile_text {
@@ -72,8 +90,8 @@
 }
 
 .profile_desc {
-    width: 90%;
-    text-align: justify;
+    width: 100%;
+    text-align: center;
 }
 
 /****** SOFTWARE ******/
@@ -83,5 +101,11 @@
 }
 
 .cj_icon {
-    margin: 20px 30px;
+    margin: 20px 10px;
+}
+
+/****** FOOTER ******/
+
+.footer_text {
+   text-align: center;
 }
