@@ -53,8 +53,9 @@
     padding: 20px 0;
 }
 
-.vampire_vid {
-    display: none;
+.regular_vid {
+    display: inline-flex;
+    width: 90%;
 }
 
 .reels {
