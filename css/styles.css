@@ -99,7 +99,6 @@ font-family: 'Inconsolata', monospace;
 
 .hero_logo {
     height: 20%;
-    color: #e30613;
     margin: 30px;
 }
 
@@ -158,7 +157,7 @@ font-family: 'Inconsolata', monospace;
     padding: 50px 0;
 }
 
-.vampire_vid {
+.regular_vid {
     margin: 20px;
 }
 
